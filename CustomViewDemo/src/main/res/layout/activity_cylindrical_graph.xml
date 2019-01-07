@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".activity.CylindricalGraphActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/Edit_one"
+        android:hint="请输入第一个矩形图的值"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/Edit_two"
+        android:hint="请输入第二个矩形图的值"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/Edit_three"
+        android:hint="请输入第三个矩形图的值"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/button"
+        android:text="点击"
+
+        android:textSize="23dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--声明-->
+    <declare-styleable name="CustomViewCircle">
+        <attr name="mColor" format="color"/>
+        <attr name="mRadius" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="CustomViewSector">
+        <attr name="sColor" format="color"/>
+        <attr name="startAngle" format="integer"/>
+        <attr name="sweepAngle" format="integer"/>
+
+    </declare-styleable>
+
+</resources>

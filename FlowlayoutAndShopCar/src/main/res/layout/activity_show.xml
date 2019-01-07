@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ui.actifity.ShowActivity">
+    <EditText
+        android:id="@+id/main_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击查询"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Historical_record"
+        android:text="历史记录"
+        />
+    <com.example.flowlayout.di.WeekFlowLayout
+        android:id="@+id/flowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></com.example.flowlayout.di.WeekFlowLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clean_all"
+        android:text="清除所有"
+        />
+
+
+
+</LinearLayout>
